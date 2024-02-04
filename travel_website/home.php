@@ -4,25 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Musafir-The Traveler</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <!-- header section starts -->
-<section class="header">
-    <a href="home.php" class="logo">Travel.</a>
-    <nav class="navbar" >
-        <a href="home.php">home</a>
-        <a href="about.php">about</a>
-        <a href="package.php">package</a>
-        <a href="book.php">book</a>
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
-</section>
-<!-- header section ends -->
 
+<!-- header section -->
+<?php  include 'header.php' ?>
+<!-- header section ends-->
+  
 <!-- home section starts -->
 <section class="home">
     <div class="swiper home-slider">
@@ -109,7 +102,7 @@
     
     <div class="content">
         <h3>about us</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus optio itaque reiciendis illo commodi ut ex blanditiis, error placeat id harum molestiae aspernatur quo? A, impedit iusto corrupti rerum repellendus iste qui tenetur repellat? Ratione assumenda ullam commodi omnis.</p>
+        <p>We are the one who will fullfill your travelling dreams with beautiful and wonderful memories. We have more than 20,000+ satisfied clients.</p>
         <a href="about.php" class="btn">read more</a>
     </div>
 
@@ -127,11 +120,12 @@
         <div class="box">
             
             <div class="image">
-                <img src="images/img-1.jpg" alt="">
+                <img src="images/mh.jpg" alt="">
             </div>
             <div class="content">
-                <h3>adventure & tour</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, similique.</p>
+                <h3>Maharashtra Exploration Tour</h3>
+                <p>7 Days / 6 Nights</p>
+                <p>Mumbai - Pune - Lonavala - Khandala - Aurangabad - Ajanta and Ellora Caves</p>
                 <a href="book.php" class="btn">book now</a>
             </div>
 
@@ -139,22 +133,24 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-2.jpg" alt="">
+                <img src="images/pkg-11.jpg" alt="">
             </div>
             <div class="content">
-                <h3>adventure & tour</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, similique.</p>
+                <h3>Kerala Enchantment Tour</h3>
+                <p>7 Days / 6 Nights</p>
+                <p>Kochi (Cochin) - Munnar - Thekkady (Periyar) - Alleppey (Alappuzha) - Kumarakom - Kovalam - Trivandrum (Thiruvananthapuram)</p>
                 <a href="book.php" class="btn">book now</a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
-                <img src="images/img-3.jpg" alt="">
+                <img src="images/gj.jpg" alt="">
             </div>
             <div class="content">
-                <h3>adventure & tour</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, similique.</p>
+                <h3>Gujarat Discovery Tour</h3>
+                <p>7 Days / 6 Nights</p>
+                <p>Ahmedabad - Vadodara - Champaner-Pavagadh - Udaipur (Rajasthan) - Rajkot - Somnath - Dwarka - Jamnagar - Ahmedabad</p>
                 <a href="book.php" class="btn">book now</a>
             </div>
         </div>
@@ -172,7 +168,7 @@
     
     <div class="content">
         <h3>upto 50% off</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum cupiditate debitis corporis et asperiores veritatis impedit incidunt non magnam dolor?</p>
+        <p>Speical Winter Offer for packages with more than 10 days.</p>
         <a href="book.php" class="btn">book now</a>
     </div>
 
@@ -180,49 +176,11 @@
 
 <!-- home offer section ends -->
 
-
-
-<!-- footer section starts -->
-<section class="footer">
-    <div class="box-container">
-
-        <div class="box">
-            <h3>Quick Access</h3>
-            <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
-            <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
-            <a href="package.php"> <i class="fas fa-angle-right"></i> package</a>
-            <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>
-        </div>
-
-        <div class="box">
-            <h3>Extra Links</h3>
-            <a href="#"> <i class="fas fa-angle-right"></i> ask questions </a>
-            <a href="#"> <i class="fas fa-angle-right"></i> about us </a>
-            <a href="#"> <i class="fas fa-angle-right"></i> privacy policy </a>
-            <a href="#"> <i class="fas fa-angle-right"></i> terms of use </a>
-        </div>
-
-        <div class="box">
-            <h3>Contact Info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +917854612345 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +918734521395 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> travels@gmail.com </a>
-            <a href="#"> <i class="fas fa-map"></i> Pune,India - 411043 </a>
-        </div>
-
-        <div class="box">
-            <h3>Follow Us</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-        </div>
-
-    </div>
-</section>
+<!-- footer section -->
+<?php  include 'footer.php' ?>
 <!-- footer section ends -->
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
